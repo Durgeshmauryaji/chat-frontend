@@ -4,18 +4,19 @@ import { Chat } from './Chat';
 import music from './mixkit-tile-game-reveal-960.wav';
 
 
-const socket = io.connect("http://localhost:1000");
+const socket = io.connect("https://chat-backend.onrender.com");  
+
 
 const App = () => {
   const [username, setUsername] = useState("");
   const [room, setRoom] = useState("");
-  const [showChat, setShowChat] = useState(false); // ✅ Track if chat should be shown
+  const [showChat, setShowChat] = useState(false); 
   const notification=new Audio(music);
   const joinChat = () => {
     if (username !== "" && room !== "") {
       socket.emit("join_room", room);
       setShowChat(true); 
-      notification.play();// ✅ Show chat component only after joining
+      notification.play();
     }
   };
 
