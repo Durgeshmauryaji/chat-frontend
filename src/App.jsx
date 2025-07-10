@@ -23,7 +23,7 @@ const App = () => {
       {!showChat ? (
         <div>
           <p className="wlcm typewriter">
-            Namaste! I’m Durgesh Kumar and I welcome you to this
+           I’m Durgesh Kumar and I welcome you to this
             chat platform. 🙏
           </p>
 
