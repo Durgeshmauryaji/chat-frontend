@@ -216,8 +216,8 @@ body {
   text-align: center;
   padding: 1rem;
   margin: 1rem auto;
-  max-width: 90%;
-  font-size: 1.2rem;
+  max-width: 50%;
+  font-size: 1rem;
   font-weight: bold;
   background: linear-gradient(to right, #ffcc00, #ff8800);
   color: #000;

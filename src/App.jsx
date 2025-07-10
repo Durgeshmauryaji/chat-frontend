@@ -22,10 +22,10 @@ const App = () => {
     <>
       {!showChat ? (
         <div>
-          <h4 className="wlcm typewriter">
-            Namaste! I’m Durgesh Kumar, and I wholeheartedly welcome you to this
+          <p className="wlcm typewriter">
+            Namaste! I’m Durgesh Kumar and I welcome you to this
             chat platform. 🙏
-          </h4>
+          </p>
 
           <div className="main">
             {/* <img src="./src/ui-chat.png" className='img'/> */}
