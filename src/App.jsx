@@ -21,11 +21,8 @@ const App = () => {
   return (
     <>
       {!showChat ? (
-        <div>
-          <p className="wlcm typewriter">
-           I’m Durgesh Kumar and I welcome you to this
-            chat platform. 🙏
-          </p>
+       
+          
 
           <div className="main">
             {/* <img src="./src/ui-chat.png" className='img'/> */}
@@ -46,7 +43,7 @@ const App = () => {
               <button onClick={joinChat}>Join</button>
             </div>
           </div>
-        </div>
+       
       ) : (
         <Chat socket={socket} username={username} room={room} />
       )}
