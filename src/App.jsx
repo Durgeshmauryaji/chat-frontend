@@ -28,8 +28,9 @@ const App = () => {
             {/* <img src="./src/ui-chat.png" className='img'/> */}
 
             <div className="join_room ">
-              <p>Chat No. should be same both side.</p>
               <h1>Join Chat</h1>
+              <p>Chat No. should be same both side.</p>
+
 
               <input
                 type="text"
@@ -38,7 +39,7 @@ const App = () => {
               />
               <input
                 type="text"
-                placeholder="Enter chat no. to connect as 5,8 or any"
+                placeholder="Enter chat no.to connect as 5,8 or any"
                 onChange={(e) => setRoom(e.target.value)}
               />
               <button onClick={joinChat}>Join</button>
