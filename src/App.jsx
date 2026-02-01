@@ -38,7 +38,7 @@ const App = () => {
               />
               <input
                 type="text"
-                placeholder="Enter chat no. to connect as 5 or 8"
+                placeholder="Enter chat no. to connect as 5,8 or any"
                 onChange={(e) => setRoom(e.target.value)}
               />
               <button onClick={joinChat}>Join</button>
